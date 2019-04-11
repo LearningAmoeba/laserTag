@@ -20,14 +20,14 @@ public class playPage extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_play_page);
-        Button logInButton = (Button)findViewById(R.id.returnToFrontPage );
+        Button ScoreBoard = (Button)findViewById(R.id.goToScoreBoard );
         Button fireButton = (Button)findViewById(R.id.buttonnnnnnn) ;
         ImageButton fire =  (ImageButton )findViewById(R.id.fireButton );
-        logInButton.setOnClickListener(new View.OnClickListener() {
+        ScoreBoard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent logInIntent = new Intent(getApplicationContext(),MainActivityImageButton .class);
-                startActivity(logInIntent);
+                Intent ScoreBoard = new Intent(getApplicationContext(),playerScore .class);
+                startActivity(ScoreBoard);
             }
         });
         imageView = (ImageView)findViewById(R.id.image_view);
