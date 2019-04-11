@@ -15,20 +15,20 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
-        android:text="Score"
+        android:text="HP 100"
         android:textColor="@color/colorAccent"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/returnToFrontPage"
-        android:layout_width="49dp"
+        android:id="@+id/goToScoreBoard"
+        android:layout_width="109dp"
         android:layout_height="45dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginRight="28dp"
-        android:text="X"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Score"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
