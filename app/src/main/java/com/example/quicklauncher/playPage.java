@@ -16,6 +16,9 @@ import java.io.File;
 public class playPage extends Activity {
     static final int CAM_REQUEST = 1;
     ImageView imageView;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,8 +41,6 @@ public class playPage extends Activity {
                 File file = getFile();
                 camera_intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(file));
                 startActivityForResult(camera_intent, CAM_REQUEST );
-
-
             }
         });
     }
